@@ -1,0 +1,53 @@
+@media(width >=768px) {
+
+    .nav__open,
+    .nav__close {
+        display: none;
+    }
+
+    .nav__items {
+        position: unset;
+        display: flex;
+        flex-direction: unset;
+        justify-content: start;
+        text-align: unset;
+        background-color: unset;
+        padding: unset;
+        width: unset;
+        height: unset;
+        transform: unset;
+        right: unset;
+        top: unset;
+        transition: unset;
+        border-radius: unset;
+        z-index: unset;
+    }
+    .nav__link {
+        font-family: var(--font-neue);
+        font-weight: 400;
+        color: #ffffff;
+        padding-right: 1em;
+        text-shadow: 0 0 2px #000,0 0 2px #000,0 0 2px #000;
+    }
+    .controles{
+        position: absolute;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around; /* Para alinear los controles a la derecha */
+        align-items: center;
+        right: 10%;
+    }
+    .controles__img{
+        display: flex;
+        width: 36px;
+        cursor: pointer;
+    }
+    .itinerario__name{
+        font-family: var(--font-Handlee); 
+        margin: 0; 
+        font-size: 1rem;
+        color: var(--titulo-itinerario); 
+    }
+
+}
